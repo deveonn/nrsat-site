@@ -1,0 +1,70 @@
+.trust-bar {
+  background: #871619;
+}
+
+.trust-bar__grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 34px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+}
+
+.trust-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.trust-item__icon {
+  flex: none;
+  margin-top: 2px;
+}
+
+.trust-item__title {
+  margin: 0;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.trust-item__desc {
+  margin: 4px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #edcfcf;
+}
+
+.live-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7de3a8;
+  animation: nrsatDot 2s ease-out infinite;
+}
+
+.trust-bar__metrics {
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.trust-bar__metrics-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 36px;
+  justify-content: center;
+}
+
+.metric-placeholder {
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 13px;
+  color: #d9a0a1;
+}

@@ -1,0 +1,95 @@
+.why-nrsat {
+  background: #ffffff;
+  scroll-margin-top: 90px;
+}
+
+.why-nrsat__inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: clamp(56px, 7vw, 88px) 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  align-items: center;
+}
+
+.why-nrsat__text {
+  flex: 1 1 420px;
+  min-width: 300px;
+}
+
+.section-kicker {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #871619;
+}
+
+.section-h2 {
+  margin: 0 0 18px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: clamp(26px, 3.4vw, 36px);
+  color: #33191b;
+  text-wrap: pretty;
+}
+
+.why-nrsat__intro {
+  margin: 0 0 28px;
+  font-size: 17px;
+  line-height: 1.65;
+  color: #5c4c4d;
+  text-wrap: pretty;
+}
+
+.differentials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.differential {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1c2733;
+}
+
+.differential__icon {
+  flex: none;
+  margin-top: 2px;
+}
+
+.why-nrsat__image {
+  flex: 1 1 360px;
+  min-width: 280px;
+}
+
+.placeholder-image {
+  aspect-ratio: 4 / 3;
+  border-radius: 12px;
+  border: 2px dashed #c4a9a9;
+  background: repeating-linear-gradient(135deg, #f3efee 0px, #f3efee 14px, #ebe4e3 14px, #ebe4e3 28px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  text-align: center;
+}
+
+.placeholder-label {
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 13px;
+  color: #7e6a6b;
+  line-height: 1.5;
+  max-width: 300px;
+}
